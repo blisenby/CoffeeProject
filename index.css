@@ -1,0 +1,58 @@
+.logo-image img {
+    max-width: 150px; /* Adjust this value to your desired width */
+    height: auto;
+}
+body{
+    background-color: rgb(74, 44, 105);
+}
+.navbar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(74, 44, 105);
+}
+/* index.css */
+
+/* Define a grid layout for product cards */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #050505;
+}
+
+/* Style each product card */
+
+.product-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+}
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.product-card {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: rgb(107, 67, 118);
+}
+
+.product-card img {
+    max-width: 150px;
+    height: 150px;
+} 
